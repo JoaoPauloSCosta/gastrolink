@@ -6,14 +6,14 @@ const Navbar = () => {
     <header>
     <div className="container">
               <nav className="navbar navbar-expand-lg p-0">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#offcanvasNavbar">
                         <span className="navbar-toggler-icon">
                             <i classNames="ri-menu-line"></i>
                         </span>
                     </button>
-                    <a href="index.html">
-                     <img className="img-fluid logo" src="/src/assets/images/svg/logo.svg" alt="logo" />
+                    <a href="/">
+                     <img className="img-fluid logo" src="/src/assets/images/logo/logo.png" alt="logo" />
                     </a>
                     <a target="_blank" href="#!" data-bs-toggle="modal" data-bs-target="#location"
                         className="btn btn-sm theme-btn location-btn mt-0 ms-3 d-flex align-content-center gap-1">
@@ -43,9 +43,9 @@ const Navbar = () => {
                                 data-bs-target="#offcanvasSkeleton" data-bs-dismiss="offcanvas"></button>
                         </div>
                         <div className="offcanvas-body">
-                            <ul class="navbar-nav justify-content-center flex-grow-1">
+                            <ul className="navbar-nav justify-content-center flex-grow-1">
                                 <li className="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#!" role="button"
+                                    <a className="nav-link dropdown-toggle" href="#!" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">Home</a>
                                 </li>
                                 <li className="nav-item">
@@ -61,12 +61,180 @@ const Navbar = () => {
                 </nav>
     </div>
     </header>
-    <section class="home-wrapper section-b-space">
-            <div class="container text-center">
-                <div class="loader-gif">
+    <section className="home-wrapper section-b-space">
+            <div className="container text-center">
+                <div className="loader-gif">
                     <img src="/src/assets/images/gif/food.gif" alt="food-gif" className="img-fluid" />
                 </div>
                 <h2>Estamos procurando o melhor restaurante na sua região...</h2>
+            </div>
+        </section>
+
+        <section className="categories-section section-b-space">
+            <div className="container">
+                <div className="title placeholder-glow">
+                    <span className="placeholder col-md-2 col-5"></span>
+                    <p className="placeholder col-5 w-50"></p>
+                </div>
+                <div className="theme-arrow">
+                    <div className="swiper categories-slider categories-style">
+                        <div className="swiper-wrapper">
+                            <div className="swiper-slide placeholder-glow">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                            <div className="swiper-slide">
+                                <a href="restaurant-listing.html" className="food-categories">
+                                    <span className="categories-img"></span>
+                                    <h4 className="placeholder col-10"></h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="banner-section section-b-space">
+            <div className="container">
+                <div className="title placeholder-glow">
+                    <span className="placeholder col-md-2 col-5"></span>
+                    <p className="placeholder col-5 w-50"></p>
+                </div>
+                <div className="position-relative">
+                    <div className="swiper banner1-slider">
+                        <div className="swiper-wrapper">
+                            <div className="swiper-slide placeholder-glow">
+                                <div className="banner-part">
+                                    <a href="offer.html" className="placeholder"></a>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="banner-part">
+                                    <a href="offer.html" className="placeholder"></a>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="banner-part">
+                                    <a href="offer.html" className="placeholder"></a>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="banner-part">
+                                    <a href="offer.html" className="placeholder"></a>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="banner-part">
+                                    <a href="offer.html" className="placeholder"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </>
