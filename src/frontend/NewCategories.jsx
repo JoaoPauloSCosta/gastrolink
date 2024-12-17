@@ -52,7 +52,7 @@ const NewCategories = () => {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link dropdown-toggle" href="#!" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">Order</a>
+                                        data-bs-toggle="dropdown" aria-expanded="false">Pedidos</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link dropdown-toggle" href="#!" role="button"
@@ -76,7 +76,7 @@ const NewCategories = () => {
                 <div class="loader-gif">
                     <img src="/src/assets/images/gif/food.gif" alt="food-gif" class="img-fluid"/>
                 </div>
-                <h2>Searching the most delicious dish in your area...</h2>
+                <h2>Procurando restaurantes em sua região...</h2>
             </div>
         </section>
         <div class="categories-section">
@@ -649,31 +649,31 @@ const NewCategories = () => {
                         </div>
                         <div class="swiper-slide">
                             <a href="restaurant-listing.html" class="food-categories">
-                                <img class="img-fluid categories-img" src="assets/images/product/p-16.png" alt="p-16"/>
+                                <img class="img-fluid categories-img" src="/src/assets/images/product/p-16.png" alt="p-16"/>
                                 <h4 class="dark-text">Pasta</h4>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="restaurant-listing.html" class="food-categories">
-                                <img class="img-fluid categories-img" src="assets/images/product/p-17.png" alt="p-17"/>
+                                <img class="img-fluid categories-img" src="/src/assets/images/product/p-17.png" alt="p-17"/>
                                 <h4 class="dark-text">Meggi</h4>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="restaurant-listing.html" class="food-categories">
-                                <img class="img-fluid categories-img" src="assets/images/product/p-18.png" alt="p-18"/>
+                                <img class="img-fluid categories-img" src="/src/assets/images/product/p-18.png" alt="p-18"/>
                                 <h4 class="dark-text">Momos</h4>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="restaurant-listing.html" class="food-categories">
-                                <img class="img-fluid categories-img" src="assets/images/product/p-19.png" alt="p-19"/>
+                                <img class="img-fluid categories-img" src="/src/assets/images/product/p-19.png" alt="p-19"/>
                                 <h4 class="dark-text">Salad</h4>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="restaurant-listing.html" class="food-categories">
-                                <img class="img-fluid categories-img" src="assets/images/product/p-20.png" alt="p-20"/>
+                                <img class="img-fluid categories-img" src="/src/assets/images/product/p-20.png" alt="p-20"/>
                                 <h4 class="dark-text">Biryani</h4>
                             </a>
                         </div>
@@ -698,7 +698,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="banner-part">
                                 <a href="offer.html">
-                                    <img class="img-fluid banner-img" src="assets/images/banner/banner1.jpg"
+                                    <img class="img-fluid banner-img" src="/src/assets/images/banner/banner1.jpg"
                                         alt="banner"/>
                                 </a>
                             </div>
@@ -706,7 +706,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="banner-part">
                                 <a href="offer.html">
-                                    <img class="img-fluid banner-img" src="assets/images/banner/banner2.jpg"
+                                    <img class="img-fluid banner-img" src="/src/assets/images/banner/banner2.jpg"
                                         alt="banner"/>
                                 </a>
                             </div>
@@ -714,7 +714,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="banner-part">
                                 <a href="offer.html">
-                                    <img class="img-fluid banner-img" src="assets/images/banner/banner3.jpg"
+                                    <img class="img-fluid banner-img" src="/src/assets/images/banner/banner3.jpg"
                                         alt="banner"/>
                                 </a>
                             </div>
@@ -722,7 +722,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="banner-part">
                                 <a href="offer.html">
-                                    <img class="img-fluid banner-img" src="assets/images/banner/banner4.jpg"
+                                    <img class="img-fluid banner-img" src="/src/assets/images/banner/banner4.jpg"
                                         alt="banner"/>
                                 </a>
                             </div>
@@ -730,7 +730,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="banner-part">
                                 <a href="offer.html">
-                                    <img class="img-fluid banner-img" src="assets/images/banner/banner5.jpg"
+                                    <img class="img-fluid banner-img" src="/src/assets/images/banner/banner5.jpg"
                                         alt="banner"/>
                                 </a>
                             </div>
@@ -778,7 +778,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-9.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-9.png"
                                             alt="vp1"/>
                                     </a>
                                     <div class="offers">
@@ -814,7 +814,7 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
@@ -856,7 +856,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-11.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-11.png"
                                             alt="vp3"/>
                                     </a>
                                 </div>
@@ -887,7 +887,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-12.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-12.png"
                                             alt="vp-4"/>
                                     </a>
                                 </div>
@@ -918,7 +918,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-13.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-13.png"
                                             alt="vp-5"/>
                                     </a>
                                 </div>
@@ -947,7 +947,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-14.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-14.png"
                                             alt="vp16"/>
                                     </a>
                                     <div class="offers">
@@ -983,7 +983,7 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge exclusive-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/crown.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/crown.svg" alt="medal"/>
                                     <h6>Best seller</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
@@ -1024,7 +1024,7 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge new-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/star-white.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/star-white.svg" alt="medal"/>
                                     <h6>Newest</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
@@ -1070,7 +1070,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-1.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-1.png"
                                             alt="vp1"/>
                                     </a>
                                     <div class="offers">
@@ -1106,7 +1106,7 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/star-white.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/star-white.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
@@ -1148,7 +1148,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-3.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-3.png"
                                             alt="vp3"/>
                                     </a>
                                 </div>
@@ -1179,7 +1179,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-4.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-4.png"
                                             alt="vp-4"/>
                                     </a>
                                 </div>
@@ -1210,7 +1210,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-5.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-5.png"
                                             alt="vp-5"/>
                                     </a>
                                 </div>
@@ -1239,7 +1239,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-6.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-6.png"
                                             alt="vp16"/>
                                     </a>
                                     <div class="offers">
@@ -1275,7 +1275,7 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge new-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/star-white.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/star-white.svg" alt="medal"/>
                                     <h6>Newest</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
@@ -1316,13 +1316,13 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge exclusive-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/crown.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/crown.svg" alt="medal"/>
                                     <h6>Best seller</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
                                         <img class="vertical-product-img-top w-100 bg-img"
-                                            src="assets/images/product/vp-8.png" alt="vp-8"/>
+                                            src="/src/assets/images/product/vp-8.png" alt="vp-8"/>
                                     </a>
                                     <div class="offers">
                                         <h6>upto $2</h6>
@@ -1362,7 +1362,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-1.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-1.png"
                                             alt="vp1"/>
                                     </a>
                                     <div class="offers">
@@ -1398,7 +1398,7 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
@@ -1440,7 +1440,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-3.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-3.png"
                                             alt="vp3"/>
                                     </a>
                                 </div>
@@ -1471,7 +1471,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-4.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-4.png"
                                             alt="vp-4"/>
                                     </a>
                                 </div>
@@ -1502,7 +1502,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-5.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-5.png"
                                             alt="vp-5"/>
                                     </a>
                                 </div>
@@ -1531,7 +1531,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-6.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-6.png"
                                             alt="vp16"/>
                                     </a>
                                     <div class="offers">
@@ -1567,13 +1567,13 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
                                         <img class="vertical-product-img-top w-100 bg-img"
-                                            src="assets/images/product/vp-7.png" alt="vp-7"/>
+                                            src="/src/assets/images/product/vp-7.png" alt="vp-7"/>
                                     </a>
                                     <div class="offers">
                                         <h6>upto $2</h6>
@@ -1608,13 +1608,13 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
                                         <img class="vertical-product-img-top w-100 bg-img"
-                                            src="assets/images/product/vp-8.png" alt="vp-8"/>
+                                            src="/src/assets/images/product/vp-8.png" alt="vp-8"/>
                                     </a>
                                     <div class="offers">
                                         <h6>upto $2</h6>
@@ -1654,7 +1654,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-1.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-1.png"
                                             alt="vp1"/>
                                     </a>
                                     <div class="offers">
@@ -1690,13 +1690,13 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
                                         <img class="vertical-product-img-top w-100 bg-img"
-                                            src="assets/images/product/vp-2.png" alt="vp-2"/>
+                                            src="/src/assets/images/product/vp-2.png" alt="vp-2"/>
                                     </a>
                                     <div class="offers">
                                         <h6>upto $2</h6>
@@ -1732,7 +1732,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-3.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-3.png"
                                             alt="vp3"/>
                                     </a>
                                 </div>
@@ -1763,7 +1763,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-4.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-4.png"
                                             alt="vp-4"/>
                                     </a>
                                 </div>
@@ -1794,7 +1794,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-5.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-5.png"
                                             alt="vp-5"/>
                                     </a>
                                 </div>
@@ -1823,7 +1823,7 @@ const NewCategories = () => {
                             <div class="vertical-product-box">
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
-                                        <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-6.png"
+                                        <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-6.png"
                                             alt="vp16"/>
                                     </a>
                                     <div class="offers">
@@ -1859,13 +1859,13 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
                                         <img class="vertical-product-img-top w-100 bg-img"
-                                            src="assets/images/product/vp-7.png" alt="vp-7"/>
+                                            src="/src/assets/images/product/vp-7.png" alt="vp-7"/>
                                     </a>
                                     <div class="offers">
                                         <h6>upto $2</h6>
@@ -1900,13 +1900,13 @@ const NewCategories = () => {
                         <div class="col-xl-3 col-lg-4 col-sm-6">
                             <div class="vertical-product-box">
                                 <div class="seller-badge">
-                                    <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                                    <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                                     <h6>Exclusive</h6>
                                 </div>
                                 <div class="vertical-product-box-img">
                                     <a href="menu-listing.html">
                                         <img class="vertical-product-img-top w-100 bg-img"
-                                            src="assets/images/product/vp-8.png" alt="vp-8"/>
+                                            src="/src/assets/images/product/vp-8.png" alt="vp-8"/>
                                     </a>
                                     <div class="offers">
                                         <h6>upto $2</h6>
@@ -1945,7 +1945,7 @@ const NewCategories = () => {
     </section>
    
     <section class="brand-section">
-        <img class="img-fluid item-4" src="assets/images/svg/item4.svg" alt="item-4"/>
+        <img class="img-fluid item-4" src="/src/assets/images/svg/item4.svg" alt="item-4"/>
         <div class="container">
             <div class="title">
                 <h2>Brand For You</h2>
@@ -1962,7 +1962,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand1.png" alt="brand1"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand1.png" alt="brand1"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>La Pino’z</h4>
@@ -1972,7 +1972,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand2.png" alt="brand2"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand2.png" alt="brand2"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Mc'd</h4>
@@ -1982,7 +1982,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand3.png" alt="brand3"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand3.png" alt="brand3"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Starbucks</h4>
@@ -1992,7 +1992,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand4.png" alt="brand2"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand4.png" alt="brand2"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Pizza Hut</h4>
@@ -2002,7 +2002,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand5.png" alt="brand2"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand5.png" alt="brand2"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Wendy's</h4>
@@ -2012,7 +2012,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand6.png" alt="brand6"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand6.png" alt="brand6"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Burger King</h4>
@@ -2022,7 +2022,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand7.png" alt="brand7"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand7.png" alt="brand7"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Subway</h4>
@@ -2032,7 +2032,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand8.png" alt="brand8"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand8.png" alt="brand8"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Domino's</h4>
@@ -2042,7 +2042,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand9.png" alt="brand9"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand9.png" alt="brand9"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Taco Bell</h4>
@@ -2052,7 +2052,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand10.png" alt="brand5"/>
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand10.png" alt="brand5"/>
                                 </a>
                                 <a href="menu-listing.html">
                                     <h4>Chipotle</h4>
@@ -2062,7 +2062,7 @@ const NewCategories = () => {
                         <div class="swiper-slide">
                             <div class="brand-box">
                                 <a href="menu-listing.html" class="food-brands">
-                                    <img class="img-fluid brand-img" src="assets/images/icons/brand11.png"
+                                    <img class="img-fluid brand-img" src="/src/assets/images/icons/brand11.png"
                                         alt="brand11"/>
                                 </a>
                                 <a href="menu-listing.html">
@@ -2079,7 +2079,7 @@ const NewCategories = () => {
     </section>
     
     <section class="popular-restaurant section-b-space ratio3_2 overflow-hidden">
-        <img class="img-fluid item-5" src="assets/images/svg/item5.svg" alt="item-5"/>
+        <img class="img-fluid item-5" src="/src/assets/images/svg/item5.svg" alt="item-5"/>
         <div class="container">
             <div class="title">
                 <h2>Popular Restaurants</h2>
@@ -2093,7 +2093,7 @@ const NewCategories = () => {
                     <div class="vertical-product-box">
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-1.png"
+                                <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-1.png"
                                     alt="vp1"/>
                             </a>
                             <div class="offers">
@@ -2127,12 +2127,12 @@ const NewCategories = () => {
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="vertical-product-box">
                         <div class="seller-badge new-badge">
-                            <img class="img-fluid badge" src="assets/images/svg/star-white.svg" alt="medal"/>
+                            <img class="img-fluid badge" src="/src/assets/images/svg/star-white.svg" alt="medal"/>
                             <h6>Newest</h6>
                         </div>
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="vertical-product-img-top w-100 bg-img" src="assets/images/product/vp-2.png"
+                                <img class="vertical-product-img-top w-100 bg-img" src="/src/assets/images/product/vp-2.png"
                                     alt="vp-2"/>
                             </a>
                             <div class="offers">
@@ -2167,7 +2167,7 @@ const NewCategories = () => {
                     <div class="vertical-product-box">
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-3.png"
+                                <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-3.png"
                                     alt="vp3"/>
                             </a>
                         </div>
@@ -2198,7 +2198,7 @@ const NewCategories = () => {
                     <div class="vertical-product-box">
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-4.png"
+                                <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-4.png"
                                     alt="vp-4"/>
                             </a>
                         </div>
@@ -2227,7 +2227,7 @@ const NewCategories = () => {
                     <div class="vertical-product-box">
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-5.png"
+                                <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-5.png"
                                     alt="vp-5"/>
                             </a>
                         </div>
@@ -2256,7 +2256,7 @@ const NewCategories = () => {
                     <div class="vertical-product-box">
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="product-img-top w-100 bg-img" src="assets/images/product/vp-6.png"
+                                <img class="product-img-top w-100 bg-img" src="/src/assets/images/product/vp-6.png"
                                     alt="vp16"/>
                             </a>
                             <div class="offers">
@@ -2297,7 +2297,7 @@ const NewCategories = () => {
                         </div>
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="vertical-product-img-top w-100 bg-img" src="assets/images/product/vp-7.png"
+                                <img class="vertical-product-img-top w-100 bg-img" src="/src/assets/images/product/vp-7.png"
                                     alt="vp-7"/>
                             </a>
                             <div class="offers">
@@ -2333,12 +2333,12 @@ const NewCategories = () => {
                 <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="vertical-product-box">
                         <div class="seller-badge">
-                            <img class="img-fluid badge" src="assets/images/svg/medal-fill.svg" alt="medal"/>
+                            <img class="img-fluid badge" src="/src/assets/images/svg/medal-fill.svg" alt="medal"/>
                             <h6>Exclusive</h6>
                         </div>
                         <div class="vertical-product-box-img">
                             <a href="menu-listing.html">
-                                <img class="vertical-product-img-top w-100 bg-img" src="assets/images/product/vp-8.png"
+                                <img class="vertical-product-img-top w-100 bg-img" src="/src/assets/images/product/vp-8.png"
                                     alt="vp-8"/>
                             </a>
                             <div class="offers">
@@ -2377,7 +2377,7 @@ const NewCategories = () => {
         <div class="container">
             <div class="d-flex align-items-center">
                 <div class="app-img">
-                    <img class="img-fluid phone" src="assets/images/service-phone.png" alt="app-phone"/>
+                    <img class="img-fluid phone" src="/src/assets/images/service-phone.png" alt="app-phone"/>
                 </div>
                 <div class="app-content">
                     <h2>Zomo App : Online & Mobile Ordering</h2>
@@ -2579,7 +2579,7 @@ const NewCategories = () => {
             <div class="bottom-footer-part">
                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
                     <h6>@ Copyright 2024 ZOMO. All rights Reserved.</h6>
-                    <img class="img-fluid cards" src="assets/images/icons/footer-card.png" alt="card"/>
+                    <img class="img-fluid cards" src="/src/assets/images/icons/footer-card.png" alt="card"/>
                 </div>
             </div>
         </div>

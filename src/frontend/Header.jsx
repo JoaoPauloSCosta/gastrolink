@@ -17,7 +17,7 @@ const Header = () => {
                 </a>
                 <a target="_blank" href="#!" data-bs-toggle="modal" data-bs-target="#location"
                     className="btn btn-sm theme-btn location-btn mt-0 ms-3 d-flex align-content-center gap-1">
-                    <i className="ri-map-pin-line"></i> Location
+                    <i className="ri-map-pin-line"></i> Localização
                 </a>
                 <div className="nav-option order-md-2">
                     <div className="dropdown-button">

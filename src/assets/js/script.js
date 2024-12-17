@@ -79,7 +79,7 @@ window.addEventListener("load", () => {
 =======================*/
 const btn = document.querySelector(".scroll");
 
-btn.addEventListener("click", function () {
+btn.addEventListener('click', function () {
   scroll(0, 200);
 });
 
@@ -219,9 +219,9 @@ themeBtnParent?.addEventListener("click", function (e) {
     // feather.replace();
     rtlBtn.querySelector(".text-value").textContent = "LTR";
     html.setAttribute("dir", "rtl");
-    rtlLink.href = "assets/css/vendors/bootstrap.rtl.css";
+    rtlLink.href = "/src/assets/css/vendors/bootstrap.rtl.css";
     rtlBtn.classList.add("rtlBtnEl");
-    localStorage.setItem("rtlcss", "assets/css/vendors/bootstrap.rtl.css");
+    localStorage.setItem("rtlcss", "/src/assets/css/vendors/bootstrap.rtl.css");
     localStorage.setItem("dir", "rtl");
     localStorage.setItem("rtlBtnId", "ltr-btn");
     localStorage.setItem("textContentRtl", "Ltr");
@@ -232,8 +232,8 @@ themeBtnParent?.addEventListener("click", function (e) {
     // feather.replace();
     rtlBtn.querySelector(".text-value").textContent = "RTL";
     html.setAttribute("dir", "");
-    rtlLink.href = "assets/css/vendors/bootstrap.css";
-    localStorage.setItem("rtlcss", "assets/css/vendors/bootstrap.css");
+    rtlLink.href = "/src/assets/css/vendors/bootstrap.css";
+    localStorage.setItem("rtlcss", "/src/assets/css/vendors/bootstrap.css");
     localStorage.setItem("dir", "");
     localStorage.setItem("rtlBtnId", "rtl-btn");
     localStorage.setItem("textContentRtl", "Rtl");
@@ -250,7 +250,7 @@ rtlBtn.querySelector(".text-value").textContent = localStorage.getItem(
 html.setAttribute("dir", localStorage.getItem("dir"));
 rtlLink.href = localStorage.getItem("rtlcss")
   ? localStorage.getItem("rtlcss")
-  : "assets/css/vendors/bootstrap.css";
+  : "/src/assets/css/vendors/bootstrap.css";
 
 /*====================
   08. Dark js
