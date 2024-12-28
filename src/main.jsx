@@ -1,12 +1,26 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import './assets/css/style.css'
-import './assets/css/fancybox.css'
-import IndexOne from './frontend/IndexOne.jsx'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <IndexOne/>
-  </StrictMode>,
+// Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+// Import RemixIcon CSS
+import 'remixicon/fonts/remixicon.css'
+
+// Import Bootstrap JS
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+
+// Import custom CSS
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 )
