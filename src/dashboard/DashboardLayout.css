@@ -1,0 +1,30 @@
+.page-wrapper {
+  position: relative;
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.page-body-wrapper {
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
+  padding-left: 250px;
+  transition: all 0.3s ease;
+}
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 80px;
+}
+
+.page-body {
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+  margin-top: 0;
+  background: #f7f7f7;
+}
