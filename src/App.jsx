@@ -1,8 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Home from './components/Home/Home'
+import Home from './components/Home'
 import SignIn from './components/Auth/SignIn'
 import SignUp from './components/Auth/SignUp'
 import Profile from './components/User/Profile'
@@ -33,28 +31,28 @@ function App() {
     <Router>
       <Routes>
         {/* Public Routes */}
-        <Route path="/" element={<><Header /><Home /><Footer /></>} />
-        <Route path="/signin" element={<><Header /><SignIn /><Footer /></>} />
-        <Route path="/signup" element={<><Header /><SignUp /><Footer /></>} />
-        <Route path="/profile" element={<><Header /><Profile /><Footer /></>} />
-        <Route path="/menu-grid" element={<><Header /><MenuGrid /><Footer /></>} />
-        <Route path="/menu-listing" element={<><Header /><MenuListing /><Footer /></>} />
-        <Route path="/restaurant-listing" element={<><Header /><RestaurantListing /><Footer /></>} />
-        <Route path="/checkout" element={<><Header /><Checkout /><Footer /></>} />
-        <Route path="/about" element={<><Header /><About /><Footer /></>} />
-        <Route path="/address" element={<><Header /><Address /><Footer /></>} />
-        <Route path="/blog-details" element={<><Header /><BlogDetails /><Footer /></>} />
-        <Route path="/contact" element={<><Header /><Contact /><Footer /></>} />
-        <Route path="/faq" element={<><Header /><FAQ /><Footer /></>} />
-        <Route path="/my-order" element={<><Header /><MyOrder /><Footer /></>} />
-        <Route path="/offer" element={<><Header /><Offer /><Footer /></>} />
-        <Route path="/order-tracking" element={<><Header /><OrderTracking /><Footer /></>} />
-        <Route path="/payment" element={<><Header /><Payment /><Footer /></>} />
-        <Route path="/saved-address" element={<><Header /><SavedAddress /><Footer /></>} />
-        <Route path="/saved-card" element={<><Header /><SavedCard /><Footer /></>} />
-        <Route path="/setting" element={<><Header /><Setting /><Footer /></>} />
-        <Route path="/testimonial" element={<><Header /><Testimonial /><Footer /></>} />
-        <Route path="/wishlist" element={<><Header /><Wishlist /><Footer /></>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/menu-grid" element={<MenuGrid />} />
+        <Route path="/menu-listing" element={<MenuListing />} />
+        <Route path="/restaurant-listing" element={<RestaurantListing />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/address" element={<Address />} />
+        <Route path="/blog-details" element={<BlogDetails />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/my-order" element={<MyOrder />} />
+        <Route path="/offer" element={<Offer />} />
+        <Route path="/order-tracking" element={<OrderTracking />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/saved-address" element={<SavedAddress />} />
+        <Route path="/saved-card" element={<SavedCard />} />
+        <Route path="/setting" element={<Setting />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/wishlist" element={<Wishlist />} />
 
         {/* Dashboard Routes */}
         <Route path="/dashboard" element={<DashboardLayout />}>
