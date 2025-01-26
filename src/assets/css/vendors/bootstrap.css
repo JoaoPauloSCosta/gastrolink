@@ -491,7 +491,15 @@ textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
+    border: 1px solid #f18c49;
+    color: #f18c49;
+    background: transparent;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 button,
@@ -9291,7 +9299,8 @@ fieldset:disabled .btn {
 }
 
 .fw-semibold {
-    font-weight: 600 !important
+    font-weight: 600 !important;
+    margin-right:150px;
 }
 
 .fw-bold {
